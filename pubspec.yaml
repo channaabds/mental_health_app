@@ -1,0 +1,29 @@
+name: mental_health_app
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  smooth_page_indicator: ^1.0.0 # Updated version
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/signup_illustration.png
+    - assets/images/catharsis_illustration.png
+    - assets/images/art_therapy.png
+    - assets/images/cb_therapy.png
+    - assets/images/Chana.jpg
